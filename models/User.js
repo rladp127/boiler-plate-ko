@@ -19,7 +19,7 @@ const userSchema = mongoose.Schema ({
         maxlength: 50
     },
     role: {
-        type: Number, // 1- 관리자, 0- 유저
+        type: Number, // 1-관리자, 0-유저
         default: 0
     },
     image: String,
